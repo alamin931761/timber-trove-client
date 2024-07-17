@@ -9,7 +9,7 @@ import {
 
 // Configure the Inter font with specific options
 export const inter = Inter({
-  weight: ["600"],
+  weight: ["400", "600"],
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",

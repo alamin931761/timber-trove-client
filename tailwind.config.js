@@ -21,6 +21,7 @@ module.exports = {
       "pale-slate": "#BFBFBF",
       "wax-flower": "#FFC39A",
       "artyClick-ocean-green": "#10FF70",
+      "mountain-mist": "#979797",
     },
 
     extend: {
