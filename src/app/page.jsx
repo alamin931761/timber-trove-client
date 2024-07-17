@@ -1,9 +1,11 @@
+import Footer from "@/components/Shared/Footer";
 import HeroSection from "@/components/UI/HeroSection/HeroSection";
 
 const HomePage = () => {
   return (
-    <div>
-      <HeroSection />
+    <div className="">
+      {/* <HeroSection /> */}
+      <Footer />
     </div>
   );
 };

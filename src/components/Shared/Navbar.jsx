@@ -15,7 +15,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar w-full">
+    <div className="navbar w-full bg-aqua-squeeze">
       {/* Navbar start section */}
       <div className="navbar-start">
         <div className="dropdown">
@@ -25,11 +25,11 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content  shadow bg-white rounded-box w-[300px]"
+            className="menu menu-compact dropdown-content  shadow bg-aqua-squeeze rounded-box w-[300px]"
           >
             {/* Dropdown menu items */}
             <div
-              className={`menu text-black w-full rounded-box border border-artyClick-ocean-green ${mochiy_pop_one.className}`}
+              className={`menu text-black w-full rounded-box ${mochiy_pop_one.className}`}
             >
               {menuItems}
             </div>
