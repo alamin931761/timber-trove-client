@@ -60,7 +60,7 @@ const Navbar = () => {
           <Image
             height={29}
             width={29}
-            src={assets.svgs.shoppingBag}
+            src={assets.images.shoppingBag}
             alt="shopping bag"
           />
 

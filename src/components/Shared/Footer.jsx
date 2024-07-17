@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
 
           <div className="grid grid-cols-5 items-center mt-[120px]">
-            <div className="col-span-4 h-[1.5px] bg-black"></div>
+            <div className="col-span-4 h-[1.5px] bg-black mr-[27px]"></div>
             <div
               className={`col-span-1 ${poppins} font-semibold flex gap-[27px]`}
             >

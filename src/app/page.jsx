@@ -1,10 +1,13 @@
 import Footer from "@/components/Shared/Footer";
-import HeroSection from "@/components/UI/HeroSection/HeroSection";
+import FeedbackCorner from "@/components/UI/HomePage/FeedbackCorner";
+import TopBrand from "@/components/UI/HomePage/TopBrand";
 
 const HomePage = () => {
   return (
     <div className="">
       {/* <HeroSection /> */}
+      <FeedbackCorner />
+      <TopBrand />
       <Footer />
     </div>
   );

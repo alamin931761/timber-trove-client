@@ -10,6 +10,7 @@ module.exports = {
       white: "#FFFFFF",
       black: "#000000",
       silver: "#CDC9C4",
+      "smokey-grey": "#6F6F6F",
       "blaze-orange": "#F56E07",
       "aqua-squeeze": "#E9F4EE",
       "pumpkin-orange": "#FF6F00",
@@ -31,8 +32,4 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
-
-  daisyui: {
-    darkTheme: "light",
-  },
 };
