@@ -1,54 +1,65 @@
-import { mochiy_pop_one } from "@/app/fonts";
+import { MochiyPopOne } from "@/app/fonts";
 import assets from "@/assets";
-import HandPickCard from "@/components/UI/HandPickCard";
+import SofaCard from "@/components/UI/Card/SofaCard";
 import Image from "next/image";
 
 const HandPick = () => {
+  // Data for hand-picked sofas
   const handPickData = [
     {
-      _id: 1,
+      _id: 4,
       image: assets.images.sofa1,
       name: "Wooden  sofa Set",
       price: 39.99,
       rating: 5.0,
+      hot: false,
     },
     {
-      _id: 2,
+      _id: 5,
       image: assets.images.sofa2,
       name: "L-SHAPE SOFA-PARIS",
       price: 39.99,
       rating: 5.0,
+      hot: false,
     },
     {
-      _id: 3,
+      _id: 6,
       image: assets.images.sofa4,
       name: "L-SHAPE SOFA-PARIS",
       price: 39.99,
       rating: 5.0,
+      hot: false,
     },
     {
-      _id: 4,
+      _id: 7,
       image: assets.images.sofa5,
       name: "L-SHAPE chair",
       price: 39.99,
       rating: 5.0,
+      hot: false,
     },
   ];
 
   return (
-    <div>
-      <h2 className={`${mochiy_pop_one.className} text-[30px] text-center`}>
+    <div className="mb-[200px]">
+      {/* Section title */}
+      <h2
+        className={`${MochiyPopOne.className} text-[30px] text-center mb-[93px] mt-[100px]`}
+      >
         Hand Pick
       </h2>
 
-      <div className="grid grid-cols-4 justify-items-center">
-        <div className="border-2 border-red-orange col-span-1">
+      {/* Grid layout for sofas and image */}
+      <div className="grid lg:grid-cols-4 grid-cols-1 justify-items-center gap-y-16">
+        {/* First column with two SofaCards */}
+        <div className="col-span-1 flex flex-col gap-16">
           {handPickData.slice(0, 2).map((data) => (
-            <HandPickCard key={data._id} data={data} />
+            <SofaCard key={data._id} data={data} />
           ))}
         </div>
 
-        <div className="flex items-center justify-center border-2 border-artyClick-ocean-green col-span-2">
+        {/* Center image column */}
+        <div className="flex items-center justify-center col-span-1 lg:col-span-2">
           <Image
             src={assets.images.sofa3}
             width={534}
@@ -57,9 +68,10 @@ const HandPick = () => {
           />
         </div>
 
-        <div className="border-2 border-red-orange col-span-1">
+        {/* Third column with two SofaCards */}
+        <div className="col-span-1 flex flex-col gap-16">
           {handPickData.slice(2, 4).map((data) => (
-            <HandPickCard key={data._id} data={data} />
+            <SofaCard key={data._id} data={data} />
           ))}
         </div>
       </div>

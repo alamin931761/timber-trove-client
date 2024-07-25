@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     colors: {
-      white: "#FFFFFF",
+      dune: "#313333",
       black: "#000000",
+      white: "#FFFFFF",
+      liver: "#4D4B4F",
       silver: "#CDC9C4",
+      "pale-sky": "#647485",
+      "mountain-mist": "#979797",
       "smokey-grey": "#6F6F6F",
       "blaze-orange": "#F56E07",
       "aqua-squeeze": "#E9F4EE",
@@ -21,7 +25,6 @@ module.exports = {
       "pale-slate": "#BFBFBF",
       "wax-flower": "#FFC39A",
       "artyClick-ocean-green": "#10FF70",
-      "mountain-mist": "#979797",
     },
 
     extend: {

@@ -24,7 +24,7 @@ export const poppins = Poppins({
 });
 
 // Configure the Roboto Serif font with specific options
-export const roboto_serif = Roboto_Serif({
+export const RobotoSerif = Roboto_Serif({
   weight: ["600"],
   style: ["normal"],
   subsets: ["latin"],
@@ -32,7 +32,7 @@ export const roboto_serif = Roboto_Serif({
 });
 
 // Configure the Roboto Slab font with specific options
-export const roboto_slab = Roboto_Slab({
+export const RobotoSlab = Roboto_Slab({
   weight: ["400", "500"],
   style: ["normal"],
   subsets: ["latin"],
@@ -40,7 +40,7 @@ export const roboto_slab = Roboto_Slab({
 });
 
 // Configure the Mochiy Pop One font with specific options
-export const mochiy_pop_one = Mochiy_Pop_One({
+export const MochiyPopOne = Mochiy_Pop_One({
   weight: ["400"],
   style: ["normal"],
   subsets: ["latin"],
@@ -48,7 +48,7 @@ export const mochiy_pop_one = Mochiy_Pop_One({
 });
 
 // Configure the Bebas Neue font with specific options
-export const bebas_neune = Bebas_Neue({
+export const BebasNeue = Bebas_Neue({
   weight: ["400"],
   style: ["normal"],
   subsets: ["latin"],

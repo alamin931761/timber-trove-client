@@ -1,10 +1,10 @@
-import { mochiy_pop_one } from "@/app/fonts";
+import { MochiyPopOne } from "@/app/fonts";
 
 const SectionTitle = ({ title }) => {
   return (
     <div className="flex flex-col items-center">
       {/* Title with custom font and styling */}
-      <h3 className={`${mochiy_pop_one.className} text-[30px] capitalize`}>
+      <h3 className={`${MochiyPopOne.className} text-[30px] capitalize`}>
         {title}
       </h3>
 

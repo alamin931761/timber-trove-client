@@ -1,6 +1,12 @@
 const assets = {
   images: {
     chair1: require("./images/chair-1.png"),
+    chair2: require("./images/chair-2.png"),
+    chair3: require("./images/chair-3.png"),
+    chair4: require("./images/chair-4.png"),
+    chair5: require("./images/chair-5.jpeg"),
+    chair6: require("./images/chair-6.jpeg"),
+    chair7: require("./images/chair-7.jpeg"),
     treeBranch: require("./images/tree-branch.png"),
     shoppingBag: require("./images/shopping-bag.png"),
     bloon: require("./images/bloon.png"),
@@ -19,6 +25,17 @@ const assets = {
     sofa3: require("./images/sofa-3.png"),
     sofa4: require("./images/sofa-4.jpeg"),
     sofa5: require("./images/sofa-5.jpeg"),
+    lShapeSofaParis1: require("./images/l-shape-sofa-paris-1.jpeg"),
+    lShapeSofaParis2: require("./images/l-shape-sofa-paris-2.jpeg"),
+    lShapeSofaParis3: require("./images/l-shape-sofa-paris-3.jpeg"),
+    lShapeSofaParis4: require("./images/l-shape-sofa-paris-4.jpeg"),
+    lShapeSofaParis5: require("./images/l-shape-sofa-paris-5.jpeg"),
+    lShapeSofaParis6: require("./images/l-shape-sofa-paris-6.jpeg"),
+    lShapeSofaParis7: require("./images/l-shape-sofa-paris-7.jpeg"),
+    lShapeSofaParis8: require("./images/l-shape-sofa-paris-8.jpeg"),
+    bestDeals1: require("./images/best-deals-1.png"),
+    bestDeals2: require("./images/best-deals-2.png"),
+    notFound: require("./images/404.png"),
   },
 };
 

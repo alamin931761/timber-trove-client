@@ -1,5 +1,5 @@
-import FeedbackCard from "../FeedbackCard";
-import SectionTitle from "./SectionTitle";
+import FeedbackCard from "@/components/UI/Card/FeedbackCard";
+import SectionTitle from "@/components/UI/HomePage/SectionTitle";
 
 const FeedbackCorner = () => {
   const feedbacks = [
@@ -32,7 +32,7 @@ const FeedbackCorner = () => {
       <SectionTitle title="Feedback Corner" />
 
       {/* Grid layout to display feedback cards */}
-      <div className="grid grid-cols-3 gap-9">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[38px] mt-[153px] mb-[198px]">
         {feedbacks.map((data) => (
           <FeedbackCard key={data._id} data={data} />
         ))}

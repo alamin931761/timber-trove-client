@@ -9,7 +9,7 @@ const TopBrand = () => {
       <SectionTitle title="top brand" />
 
       {/* Grid layout to display brand images */}
-      <div className="grid grid-cols-5 justify-items-center mt-[131px] mb-[161px]">
+      <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-items-center mt-[131px] mb-[156px] gap-5">
         <Image
           src={assets.images.partex}
           width={136}
